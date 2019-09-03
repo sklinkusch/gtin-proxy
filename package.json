@@ -1,0 +1,29 @@
+{
+  "name": "gtin-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro -p 3001' -w index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sklinkusch/gtin-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sklinkusch/gtin-proxy/issues"
+  },
+  "homepage": "https://github.com/sklinkusch/gtin-proxy#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "micro": "^9.3.4",
+    "now-env": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
