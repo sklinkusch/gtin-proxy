@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "gtin",
+  "alias": "gtin.sklinkusch.now.sh",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
+  "env": {
+    "API_KEY": "p3o87ll9u96i8po4u39gatixjul7yt"
+  }
+}
