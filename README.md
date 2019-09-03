@@ -1,1 +1,1 @@
-# gtin-proxy
+# ean-proxy
